@@ -1,5 +1,10 @@
 # README: Virtual Memory Management System Implementation
 
+## Producers
+**Xin HE**: Responsible for Function Design and Code Implementation.   
+**Zhibo FENG**: Resibonsible for Function Testing.  
+And **Co-Producers** Houze HE and Zisen FENG.   
+
 ## Overview
 Virtual memory is a memory management technique that gives processes the illusion of a large, contiguous address space while physically utilizing limited RAM. This implementation in C (`mmu.c`) demonstrates the core mechanisms of virtual memory: address translation, caching with a Translation Lookaside Buffer (TLB), page tables, page faults, and page replacement algorithms.
 
